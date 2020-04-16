@@ -8,4 +8,4 @@ const App= () => {
   )
 }
 
-export default Appx;
+export default App
