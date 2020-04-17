@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const App= () => {
-  return (
-    <div>
-	This is a template for React app.
-    </div>
+	const output = useState(1000)
+	console.log({output})
+
+	  return (
+    		<div>
+			This is a template for React app.
+   		 </div>
   )
 }
 
